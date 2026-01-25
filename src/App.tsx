@@ -5,7 +5,7 @@ import Timeline from './components/TimeLine';
 
 export default function App() {
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div className="bg-[#0b0b0b] text-white min-h-screen">
       <Navbar />
       <Hero />
       <Stats />
