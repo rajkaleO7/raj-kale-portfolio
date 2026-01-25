@@ -1,5 +1,5 @@
 type Props = {
-  setActiveSection: (section: 'home' | 'about') => void;
+  setActiveSection: (section: 'home' | 'about' | 'contact') => void;
 };
 
 export default function Navbar({ setActiveSection }: Props) {
@@ -22,7 +22,12 @@ export default function Navbar({ setActiveSection }: Props) {
         </li>
         <li className="cursor-pointer hover:text-lime-400">Services</li>
         <li className="cursor-pointer hover:text-lime-400">Projects</li>
-        <li className="cursor-pointer hover:text-lime-400">Contact</li>
+        <li
+          onClick={() => setActiveSection('contact')}
+          className="cursor-pointer hover:text-lime-400"
+        >
+          Contact
+        </li>
       </ul>
 
       <button className="bg-lime-400 text-black px-5 py-2 rounded-full font-semibold">
