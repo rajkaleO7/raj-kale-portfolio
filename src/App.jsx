@@ -1,35 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <div style={{ fontFamily: 'Arial', padding: '40px' }}>
+      <h1>Raj Kale</h1>
+      <p>Software Developer | React | Backend</p>
+
+      <h2>About Me</h2>
+      <p>
+        I am a passionate developer learning full stack development and building
+        real world projects.
       </p>
-    </>
-  )
+
+      <h2>Skills</h2>
+      <ul>
+        <li>React</li>
+        <li>TypeScript</li>
+        <li>Node.js</li>
+        <li>MongoDB</li>
+      </ul>
+
+      <h2>Projects</h2>
+      <ul>
+        <li>Task Manager App</li>
+        <li>Personal Finance Manager</li>
+        <li>Portfolio Website</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Email: yourname@gmail.com</p>
+      <p>GitHub: https://github.com/raj-kale</p>
+    </div>
+  );
 }
 
-export default App
+export default App;
