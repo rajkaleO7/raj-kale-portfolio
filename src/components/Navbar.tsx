@@ -12,9 +12,9 @@ export default function Navbar() {
         <li className="hover:text-lime-400">
           <Link to="/about">About</Link>
         </li>
-        <li className="hover:text-lime-400">
+        {/* <li className="hover:text-lime-400">
           <Link to="/services">Services</Link>
-        </li>
+        </li> */}
         <li className="hover:text-lime-400">
           <Link to="/projects">Projects</Link>
         </li>
