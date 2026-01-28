@@ -7,7 +7,7 @@ export default function Timeline() {
 
       <div className="border-l-2 border-lime-400 pl-6 space-y-6">
         <div>
-          <h3 className="text-lime-400 font-semibold">2024 - Present</h3>
+          <h3 className="text-lime-400 font-semibold">2025-26 - Present</h3>
           <p className="text-gray-300">Full Stack Developer Training</p>
         </div>
       </div>
