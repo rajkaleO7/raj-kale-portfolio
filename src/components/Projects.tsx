@@ -5,14 +5,14 @@ export default function Projects() {
       repo: 'rajkale07/TaskManager',
       desc: 'Full-stack task management application with authentication and CRUD features.',
       tech: 'React, TypeScript, Node.js, Prisma',
-      link: 'https://github.com/rajkale07/TaskManager',
+      link: 'https://github.com/rajkaleO7/TaskManager',
     },
     {
       title: 'Personal Finance Manager',
       repo: 'rajkale07/Personal-Finance-Manager',
       desc: 'Web app to track income, expenses and savings with charts and reports.',
       tech: 'React, Tailwind, Node.js',
-      link: 'https://github.com/rajkale07/Personal-Finance-Manager',
+      link: 'https://github.com/rajkaleO7/Personal-Finance-Manager',
     },
     // {
     //   title: 'Final Year Project',
@@ -26,7 +26,14 @@ export default function Projects() {
       repo: 'rajkale07/Anna_daan',
       desc: 'NGO website for food donation awareness and management.',
       tech: 'HTML, CSS, JavaScript',
-      link: 'https://github.com/rajkale07/Anna_daan',
+      link: 'https://github.com/rajkaleO7/Anna_daan',
+    },
+    {
+      title: 'MahaLand',
+      repo: 'rajkale07/MahaLand',
+      desc: 'Web-based tool to measure land by selecting map points and calculate total area and estimated land value.',
+      tech: 'HTML, CSS, JavaScript, Leaflet, PDF.js',
+      link: 'https://github.com/rajkaleO7/MahaLand',
     },
     {
       title: 'Amazon Front Page Clone',
